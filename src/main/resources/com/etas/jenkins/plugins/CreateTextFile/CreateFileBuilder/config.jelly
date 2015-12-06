@@ -1,0 +1,23 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<f:entry title="File Path: " field="textFilePath">
+		<f:textbox></f:textbox>
+	</f:entry>
+	<f:entry title="Text File Content: " field="textFileContent">
+		<f:textarea></f:textarea>
+	</f:entry>
+	<f:entry title="File options: " field="fileOption">
+		<f:entry>
+			<f:radio name="fileOption" title="Insert at start of file"
+				value="insertAtStart" checked="${instance.fileOption == 'insertAtStart'}" />
+		</f:entry>
+		<f:entry>
+			<f:radio name="fileOption" title="Append to end of file"
+				value="appendToEnd" checked="${instance.fileOption == 'appendToEnd'}" />
+		</f:entry>
+		<f:entry>
+			<f:radio name="fileOption" title="Overwrite file"
+				value="overWrite" checked="${instance.fileOption == 'overWrite'}" />
+		</f:entry>
+	</f:entry>
+</j:jelly>
