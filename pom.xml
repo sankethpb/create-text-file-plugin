@@ -10,8 +10,8 @@
 	</parent>
 
 	<groupId>com.etas.jenkins.plugins</groupId>
-	<artifactId>create-text-file</artifactId>
-	<version>1.9-SNAPSHOT</version>
+	<artifactId>text-file-operations-plugin</artifactId>
+	<version>1.10-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
 	<build>
@@ -77,7 +77,7 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<name>Create Text File</name>
+	<name>Text File Operations</name>
 	<description>Creates or updates text file with specified contents.</description>
 	<organization>
 		<name>ETAS GmbH</name>
