@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.etas.jenkins.plugins</groupId>
-	<artifactId>text-file-operations-plugin</artifactId>
+	<artifactId>text-file-operations</artifactId>
 	<version>1.10-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
